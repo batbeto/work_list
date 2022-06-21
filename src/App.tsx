@@ -6,7 +6,7 @@ import * as C from './App.styles';
 const App = () => {
   const [list, setList] = useState<Item[]>([
     { id: 1, name: 'Comprar o pão na padaria', done: false},
-    { id: 2, name: 'Comprar o bolo na padaria', done: false}
+    { id: 2, name: 'Comprar o bolo na padaria', done: true}
   ]);
 
   return (
